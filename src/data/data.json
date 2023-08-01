@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Calculator-constructor",
+    "image": "./assets/images/calculator-constructor.jpg",
+    "technologies": ["TypeScript", "React", "Redux", "Redux Toolkit", "BEM"],
+    "linkLive": "https://otr-web-study.github.io/calculator-constructor/",
+    "linkCode": "https://github.com/otr-web-study/calculator-constructor"
+  },
+  {
+    "title": "Space tourism",
+    "image": "./assets/images/space-tourism.jpg",
+    "technologies": ["TypeScript", "React", "Redux", "Redux Toolkit", "Tailwindcss"],
+    "linkLive": "https://frolicking-twilight-881957.netlify.app/",
+    "linkCode": "https://github.com/otr-web-study/fm-space-tourism"
+  },
+  {
+    "title": "Message template editor",
+    "image": "./assets/images/message-template-editor.jpg",
+    "technologies": ["TypeScript", "React", "BEM"],
+    "linkLive": "https://rainbow-bienenstitch-2775cb.netlify.app/",
+    "linkCode": "https://github.com/otr-web-study/mte"
+  },
+  {
+    "title": "Movies Explorer",
+    "image": "./assets/images/movies-explorer.jpg",
+    "technologies": [
+      "TypeScript",
+      "Vue",
+      "Pinia",
+      "GraphQL",
+      "Apollo Client",
+      "VeeValidate",
+      "Tailwindcss"
+    ],
+    "linkCode": "https://github.com/otr-web-study/mte"
+  },
+  {
+    "title": "Movies Explorer API",
+    "image": "./assets/images/movies-explorer-api.jpg",
+    "technologies": ["TypeScript", "NodeJs", "Express", "Mongoose", "GraphQL", "Apollo Server"],
+    "linkCode": "https://github.com/otr-web-study/mte"
+  },
+  {
+    "title": "Todo App",
+    "image": "./assets/images/todo-app.jpg",
+    "technologies": [
+      "TypeScript",
+      "React",
+      "Redux",
+      "Redux Toolkit",
+      "Styled Components",
+      "Framer Motion"
+    ],
+    "linkLive": "https://endearing-liger-64203f.netlify.app/",
+    "linkCode": "https://github.com/otr-web-study/fm-todo-app"
+  },
+  {
+    "title": "Job listings",
+    "image": "./assets/images/job-listings.jpg",
+    "technologies": ["TypeScript", "Vue", "Tailwindcss"],
+    "linkLive": "https://rad-concha-f8a7c1.netlify.app/",
+    "linkCode": "https://github.com/otr-web-study/fm-job-list"
+  }
+]

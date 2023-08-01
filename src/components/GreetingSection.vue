@@ -14,7 +14,7 @@ import ContactMe from './ContactMe.vue';
         alt="motorcycle helmet with eyes lenses"
       />
       <h1
-        class="mt-10 text-center text-4xl leading-10 tracking-heading-l md:mt-24 md:max-w-[55%] md:text-left md:text-[64px] md:leading-[72px] md:-tracking-[2px]"
+        class="mt-10 text-center text-4xl leading-10 tracking-heading-l md:mt-24 md:max-w-[55%] md:text-left md:text-[64px] md:leading-[72px] md:-tracking-[2px] xl:mt-28"
       >
         Nice to meet you! I’m
         <span class="whitespace-nowrap border-b-4 border-b-accent md:whitespace-normal">

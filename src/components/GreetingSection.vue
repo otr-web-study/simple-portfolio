@@ -9,7 +9,7 @@ import ContactMe from './ContactMe.vue';
       class="flex flex-col items-center border-b border-b-grayish pb-20 md:block xl:relative"
     >
       <img
-        class="right-0 top-0 -z-[1] max-w-[70%] md:fixed md:w-[40%] xl:absolute xl:-top-[170px] xl:max-w-[490px]"
+        class="right-0 top-0 -z-[1] max-w-[70%] md:absolute md:w-[40%] xl:absolute xl:-top-[170px] xl:max-w-[490px]"
         src="../assets/images/main.jpg"
         alt="motorcycle helmet with eyes lenses"
       />

@@ -4,7 +4,7 @@ import { defineStore } from 'pinia';
 export const useControlsStore = defineStore('controls-store', () => {
   const filter = ref<Record<string, boolean>>({});
   const filterKeys = ref<string[]>([]);
-  const page = ref<number>(0);
+  const page = ref<number>(1);
 
   const addFilter = (val: Record<string, boolean>) => {
     filter.value = val;

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const props = defineProps<{ class: string }>();
+const props = withDefaults(defineProps<{ class?: string }>(), { class: '' });
 </script>
 
 <template>

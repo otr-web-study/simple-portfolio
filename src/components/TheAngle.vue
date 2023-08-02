@@ -2,8 +2,8 @@
 
 <template>
   <span
-    class="text-2xl font-medium leading-6 text-accent opacity-0 transition-all duration-[400ms] group-hover:opacity-100"
+    class="h-3 fill-accent opacity-0 transition-all duration-[400ms] group-hover:animate-bounce group-hover:opacity-100"
   >
-    &#8250;
+    <slot />
   </span>
 </template>

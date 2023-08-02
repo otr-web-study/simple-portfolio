@@ -2,6 +2,7 @@
   {
     "title": "Calculator-constructor",
     "image": "./assets/images/calculator-constructor.jpg",
+    "cover": "./assets/images/calculator-constructor-cover.jpg",
     "technologies": ["TypeScript", "React", "Redux", "Redux Toolkit", "BEM"],
     "linkLive": "https://otr-web-study.github.io/calculator-constructor/",
     "linkCode": "https://github.com/otr-web-study/calculator-constructor"
@@ -9,6 +10,7 @@
   {
     "title": "Space tourism",
     "image": "./assets/images/space-tourism.jpg",
+    "cover": "./assets/images/space-tourism-cover.jpg",
     "technologies": ["TypeScript", "React", "Redux", "Redux Toolkit", "Tailwindcss"],
     "linkLive": "https://frolicking-twilight-881957.netlify.app/",
     "linkCode": "https://github.com/otr-web-study/fm-space-tourism"
@@ -16,6 +18,7 @@
   {
     "title": "Message template editor",
     "image": "./assets/images/message-template-editor.jpg",
+    "cover": "./assets/images/message-template-editor-cover.jpg",
     "technologies": ["TypeScript", "React", "BEM"],
     "linkLive": "https://rainbow-bienenstitch-2775cb.netlify.app/",
     "linkCode": "https://github.com/otr-web-study/mte"
@@ -23,6 +26,7 @@
   {
     "title": "Movies Explorer",
     "image": "./assets/images/movies-explorer.jpg",
+    "cover": "./assets/images/movies-explorer-cover.jpg",
     "technologies": [
       "TypeScript",
       "Vue",
@@ -37,12 +41,14 @@
   {
     "title": "Movies Explorer API",
     "image": "./assets/images/movies-explorer-api.jpg",
+    "cover": "./assets/images/movies-explorer-api-cover.jpg",
     "technologies": ["TypeScript", "NodeJs", "Express", "Mongoose", "GraphQL", "Apollo Server"],
     "linkCode": "https://github.com/otr-web-study/mte"
   },
   {
     "title": "Todo App",
     "image": "./assets/images/todo-app.jpg",
+    "cover": "./assets/images/todo-app-cover.jpg",
     "technologies": [
       "TypeScript",
       "React",
@@ -57,6 +63,7 @@
   {
     "title": "Job listings",
     "image": "./assets/images/job-listings.jpg",
+    "cover": "./assets/images/job-listings-cover.jpg",
     "technologies": ["TypeScript", "Vue", "Tailwindcss"],
     "linkLive": "https://rad-concha-f8a7c1.netlify.app/",
     "linkCode": "https://github.com/otr-web-study/fm-job-list"

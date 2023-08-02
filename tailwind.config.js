@@ -31,6 +31,10 @@ module.exports = {
         'heading-xl': '-2.5px',
         'heading-l': '-1.5px',
       },
+      gridTemplateColumns: {
+        tech: 'repeat(auto-fit, minmax(150px, 1fr))',
+        'tech-md': 'repeat(auto-fit, minmax(180px, 1fr))',
+      },
     },
   },
   plugins: [

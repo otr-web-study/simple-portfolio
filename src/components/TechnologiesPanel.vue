@@ -2,16 +2,18 @@
 import TheContainer from '@/components/TheContainer.vue';
 import TheAngle from '@/components/TheAngle.vue';
 import TechnologyItem from './TechnologyItem.vue';
+import AngleUp from './icons/AngleUp.vue';
+import AngleDown from './icons/AngleDown.vue';
 import { useTechnologies } from '@/hooks/useTechnologies';
 
 const { filterKeys, filter, collapsed, toggleFilter, toggleCollapsed } = useTechnologies();
 </script>
 
 <template>
-  <section class="pt-10 md:pt-[52px] xl:pt-[72px]">
-    <TheContainer>
+  <section>
+    <TheContainer class="border-b border-b-grayish py-10 md:border-b-0 md:py-[52px] xl:py-[72px]">
       <button
-        class="group flex w-full justify-start gap-4 py-2 font-bold uppercase"
+        class="group flex w-full items-center justify-start gap-4 py-2 font-bold uppercase"
         @click="toggleCollapsed"
       >
         Techologies
@@ -24,8 +26,8 @@ const { filterKeys, filter, collapsed, toggleFilter, toggleCollapsed } = useTech
           leave-from-class="scale-1"
           leave-to-class="scale-0"
         >
-          <TheAngle v-if="!collapsed" key="not-collapsed" class="-rotate-90" />
-          <TheAngle v-else key="collapsed" class="rotate-90" />
+          <TheAngle v-if="collapsed"><AngleDown /></TheAngle>
+          <TheAngle v-else><AngleUp /></TheAngle>
         </Transition>
       </button>
       <Transition
@@ -36,7 +38,7 @@ const { filterKeys, filter, collapsed, toggleFilter, toggleCollapsed } = useTech
         leave-from-class="scale-y-1"
         leave-to-class="scale-y-0"
       >
-        <ul v-if="!collapsed" class="flex flex-wrap gap-4 pt-4">
+        <ul v-if="!collapsed" class="grid grid-cols-tech gap-4 pt-4 md:grid-cols-tech-md">
           <li v-for="key in filterKeys" :key="key" class="flex">
             <TechnologyItem :technology="key" :checked="filter[key]" @change-tech="toggleFilter" />
           </li>

@@ -13,9 +13,15 @@ const handleInputChange = () => emits('change-tech', props.technology);
 <template>
   <label
     :for="technology"
-    class="flex h-5 w-[clamp(150px,calc(20%+10px),170px)] cursor-pointer items-center justify-between rounded-md bg-secondary px-4 py-4"
+    class="group relative flex w-full cursor-pointer items-center justify-between rounded-md bg-secondary px-4 py-2 text-[11px] md:text-[13px]"
   >
     {{ technology }}
+    <span
+      class="relative h-3 w-3 rounded-[50%] bg-grayish transition-colors duration-[400ms] after:absolute after:h-3 after:w-3 after:rounded-[50%] after:bg-grayish after:content-[''] after:group-hover:animate-ping"
+      :class="{
+        'bg-accent after:!bg-accent': props.checked,
+      }"
+    />
     <input
       type="checkbox"
       class="absolute z-0 opacity-0"

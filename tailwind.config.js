@@ -7,6 +7,7 @@ module.exports = {
       colors: {
         primary: 'rgb(4, 4, 4)',
         secondary: 'hsl(0, 0%, 14%)',
+        tertiary: 'hsl(0, 0%, 8%)',
         accent: 'hsl(120, 99%, 38%)',
         grayish: 'hsl(0, 0%, 85%)',
         silver: 'hsl(0, 0%, 70%)',

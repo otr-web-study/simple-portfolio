@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import TheContainer from './TheContainer.vue';
-import ContactMe from './ContactMe.vue';
+import AppLink from './AppLink.vue';
 </script>
 
 <template>
@@ -26,7 +26,7 @@ import ContactMe from './ContactMe.vue';
       >
         I’m a front-end developer passionate about building accessible web apps that users love.
       </p>
-      <ContactMe class="mt-5 md:mt-52" />
+      <AppLink class="mt-5 md:mt-52" to="#contact-me">Contarc Me</AppLink>
     </TheContainer>
   </section>
 </template>

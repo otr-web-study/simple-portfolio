@@ -27,8 +27,12 @@ export const useProjects = () => {
   );
 
   const hasNextPage = computed(
-    () => controlStore.page > filteredProjects.value.length / PROJECT_PER_PAGE,
+    () => controlStore.page < filteredProjects.value.length / PROJECT_PER_PAGE,
   );
 
-  return { projects: visibleProjects, hasNextPage };
+  const handleNextPageClick = () => {
+    controlStore.setPage(controlStore.page + 1);
+  };
+
+  return { projects: visibleProjects, hasNextPage, handleNextPageClick };
 };

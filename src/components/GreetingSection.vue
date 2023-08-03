@@ -26,7 +26,7 @@ import AppLink from './AppLink.vue';
       >
         I’m a front-end developer passionate about building accessible web apps that users love.
       </p>
-      <AppLink class="mt-5 md:mt-52" to="#contact-me">Contarc Me</AppLink>
+      <AppLink class="mt-5 md:mt-52" to="#contact-me">Contact Me</AppLink>
     </TheContainer>
   </section>
 </template>

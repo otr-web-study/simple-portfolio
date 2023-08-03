@@ -8,7 +8,7 @@ const { message, onSubmit } = useContactForm();
 </script>
 
 <template>
-  <section class="border-b border-b-grayish bg-tertiary pb-[90px] pt-16 xl:pt-20">
+  <section id="contact-me" class="border-b border-b-grayish bg-tertiary pb-[90px] pt-16 xl:pt-20">
     <TheContainer class="flex flex-col items-center xl:flex-row xl:items-start xl:justify-between">
       <div class="max-w-[500px] md:max-w-[445px]">
         <h2

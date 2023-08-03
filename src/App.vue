@@ -4,6 +4,7 @@ import GreetingSection from '@/components/GreetingSection.vue';
 import TechnologiesPanel from './components/TechnologiesPanel.vue';
 import ProjectsSection from './components/ProjectsSection.vue';
 import ContactMeSection from './components/ContactMeSection.vue';
+import TheFooter from './components/TheFooter.vue';
 import { useFetchData } from '@/hooks/useFetchData';
 
 useFetchData();
@@ -17,4 +18,5 @@ useFetchData();
     <ProjectsSection />
     <ContactMeSection />
   </main>
+  <TheFooter />
 </template>

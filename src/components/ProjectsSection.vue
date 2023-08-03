@@ -36,7 +36,7 @@ const { projects, hasNextPage, handleNextPageClick } = useProjects();
       </ul>
       <button
         v-if="hasNextPage"
-        class="tracking-heading-[2.286px] mx-auto rounded bg-secondary px-24 py-[2px] text-base uppercase leading-[26px] transition-colors duration-[400ms] hover:text-accent"
+        class="tracking-heading-[2.286px] mx-auto mb-10 rounded bg-secondary px-24 py-[2px] text-base uppercase leading-[26px] transition-colors duration-[400ms] hover:text-accent"
         @click="handleNextPageClick"
       >
         more...

@@ -3,7 +3,7 @@ import ContentHeaderFooter from './ContentHeaderFooter.vue';
 </script>
 
 <template>
-  <header class="pt-5 md:pt-7 xl:pt-10">
+  <footer class="bg-tertiary pb-16 pt-10 md:pb-10 md:pt-7 xl:pb-[90px] xl:pt-12">
     <ContentHeaderFooter />
-  </header>
+  </footer>
 </template>

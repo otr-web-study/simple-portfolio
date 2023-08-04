@@ -7,16 +7,17 @@ defineProps<{ project: Project }>();
 
 <template>
   <div class="flex h-full flex-col">
-    <div class="group relative">
+    <div class="group relative overflow-hidden">
       <img
         :src="project.cover"
         :alt="project.title"
         class="aspect-[5/3] h-full w-full rounded-sm object-cover"
       />
+      <div class="absolute bottom-0 left-0 h-[1px] w-full bg-primary"></div>
       <img
         :src="project.image"
         :alt="project.title"
-        class="absolute bottom-0 left-full right-0 aspect-[5/3] h-full w-0 overflow-hidden rounded-sm object-cover transition-all duration-700 group-hover:left-0 group-hover:w-full"
+        class="absolute -bottom-0 right-0 top-0 aspect-[5/3] h-full w-full translate-x-full overflow-hidden rounded-sm object-cover transition-all duration-700 group-hover:translate-x-0"
       />
     </div>
     <h3 class="pt-5 text-heading-m font-bold uppercase leading-heading-m">

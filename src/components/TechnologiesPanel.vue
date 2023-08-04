@@ -16,7 +16,7 @@ const { filterKeys, filter, collapsed, toggleFilter, toggleCollapsed } = useTech
         class="group flex w-full items-center justify-start gap-4 py-2 font-bold uppercase"
         @click="toggleCollapsed"
       >
-        Techologies
+        Technologies
         <Transition
           mode="out-in"
           enter-active-class="duration-300 ease"

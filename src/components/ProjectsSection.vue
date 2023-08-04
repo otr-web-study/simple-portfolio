@@ -16,7 +16,7 @@ const { projects, hasNextPage, handleNextPageClick } = useProjects();
         >
           Projects
         </h2>
-        <AppLink to="#contact-me">Contarc Me</AppLink>
+        <AppLink to="#contact-me">Contact Me</AppLink>
       </div>
       <ul
         class="mb-11 grid grid-cols-1 gap-[40px] pt-10 md:grid-cols-2 md:gap-[60px_21px] md:pt-14 xl:gap-[70px_24px] xl:pt-20"

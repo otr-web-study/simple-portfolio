@@ -67,5 +67,13 @@
     "technologies": ["TypeScript", "Vue", "Tailwindcss"],
     "linkLive": "https://rad-concha-f8a7c1.netlify.app/",
     "linkCode": "https://github.com/otr-web-study/fm-job-list"
+  },
+  {
+    "title": "Star Wars",
+    "image": "./assets/images/star-wars.jpg",
+    "cover": "./assets/images/star-wars-cover.jpg",
+    "technologies": ["JavaScript", "React", "Redux", "Redux Toolkit", "BEM"],
+    "linkLive": "https://serene-bombolone-efeb84.netlify.app/",
+    "linkCode": "https://github.com/otr-web-study/test_s_t_g"
   }
 ]

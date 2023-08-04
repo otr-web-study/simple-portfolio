@@ -19,7 +19,7 @@ const handleInputChange = () => emits('change-tech', props.technology);
     <span
       class="relative h-3 w-3 rounded-[50%] bg-grayish transition-colors duration-[400ms] after:absolute after:h-3 after:w-3 after:rounded-[50%] after:bg-grayish after:content-[''] after:group-hover:animate-ping"
       :class="{
-        'bg-accent after:!bg-accent': props.checked,
+        '!bg-accent after:!bg-accent': props.checked,
       }"
     />
     <input

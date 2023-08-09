@@ -1,5 +1,13 @@
 [
   {
+    "title": "Countries API",
+    "image": "./assets/images/countries.jpg",
+    "cover": "./assets/images/countries-cover.jpg",
+    "technologies": ["TypeScript", "Vue", "Pinia", "Tailwindcss"],
+    "linkLive": "https://chic-choux-88504d.netlify.app/",
+    "linkCode": "https://github.com/otr-web-study/fm-countries"
+  },
+  {
     "title": "Calculator-constructor",
     "image": "./assets/images/calculator-constructor.jpg",
     "cover": "./assets/images/calculator-constructor-cover.jpg",

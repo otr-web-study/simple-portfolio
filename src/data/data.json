@@ -1,5 +1,20 @@
 [
   {
+    "title": "Rock, Paper, Scissors game",
+    "image": "./assets/images/rps-game.jpg",
+    "cover": "./assets/images/rps-game-cover.jpg",
+    "technologies": [
+      "TypeScript",
+      "React",
+      "Redux",
+      "Redux Toolkit",
+      "Tailwindcss",
+      "Framer Motion"
+    ],
+    "linkLive": "https://rainbow-cobbler-406f30.netlify.app/",
+    "linkCode": "https://github.com/otr-web-study/fm-rps-game"
+  },
+  {
     "title": "Countries API",
     "image": "./assets/images/countries.jpg",
     "cover": "./assets/images/countries-cover.jpg",
@@ -44,14 +59,14 @@
       "VeeValidate",
       "Tailwindcss"
     ],
-    "linkCode": "https://github.com/otr-web-study/mte"
+    "linkCode": "https://github.com/otr-web-study/movies-explorer-frontend-vue"
   },
   {
     "title": "Movies Explorer API",
     "image": "./assets/images/movies-explorer-api.jpg",
     "cover": "./assets/images/movies-explorer-api-cover.jpg",
     "technologies": ["TypeScript", "NodeJs", "Express", "Mongoose", "GraphQL", "Apollo Server"],
-    "linkCode": "https://github.com/otr-web-study/mte"
+    "linkCode": "https://github.com/otr-web-study/movies-explorer-api-ts"
   },
   {
     "title": "Todo App",

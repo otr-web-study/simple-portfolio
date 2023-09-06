@@ -15,6 +15,14 @@
     "linkCode": "https://github.com/otr-web-study/fm-rps-game"
   },
   {
+    "title": "E-commerce product page",
+    "image": "./assets/images/e-comerce-product-page.jpg",
+    "cover": "./assets/images/e-comerce-product-page-cover.jpg",
+    "technologies": ["TypeScript", "Next.js", "NextUI", "Tailwindcss", "Framer Motion"],
+    "linkLive": "https://fm-ecommerce-product-page-delta.vercel.app/",
+    "linkCode": "https://github.com/otr-web-study/fm-ecommerce-product-page"
+  },
+  {
     "title": "Countries API",
     "image": "./assets/images/countries.jpg",
     "cover": "./assets/images/countries-cover.jpg",

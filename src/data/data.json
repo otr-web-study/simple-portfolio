@@ -23,6 +23,21 @@
     "linkCode": "https://github.com/otr-web-study/fm-ecommerce-product-page"
   },
   {
+    "title": "Multi-step form",
+    "image": "./assets/images/multi-step-form.jpg",
+    "cover": "./assets/images/multi-step-form-cover.jpg",
+    "technologies": [
+      "TypeScript",
+      "React",
+      "Redux",
+      "Redux Toolkit",
+      "Tailwindcss",
+      "Framer Motion"
+    ],
+    "linkLive": "https://calm-starship-43db70.netlify.app/",
+    "linkCode": "https://github.com/otr-web-study/fm-multi-step-form"
+  },
+  {
     "title": "Countries API",
     "image": "./assets/images/countries.jpg",
     "cover": "./assets/images/countries-cover.jpg",

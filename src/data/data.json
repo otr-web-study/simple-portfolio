@@ -1,5 +1,13 @@
 [
   {
+    "title": "React Admin Dashboard",
+    "image": "./assets/images/react-admin-dashboard.jpg",
+    "cover": "./assets/images/react-admin-dashboard-cover.jpg",
+    "technologies": ["JavaScript", "React", "Tailwindcss", "Ant Design", "DND Kit", "React Quill"],
+    "linkLive": "https://graceful-fox-1bf950.netlify.app/",
+    "linkCode": "https://github.com/otr-web-study/react-admin-dashboard"
+  },
+  {
     "title": "Rock, Paper, Scissors game",
     "image": "./assets/images/rps-game.jpg",
     "cover": "./assets/images/rps-game-cover.jpg",

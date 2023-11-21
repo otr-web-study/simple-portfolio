@@ -70,6 +70,14 @@
     "linkCode": "https://github.com/otr-web-study/fm-space-tourism"
   },
   {
+    "title": "IP address tracker",
+    "image": "./assets/images/ip-address-tracker.jpg",
+    "cover": "./assets/images/ip-address-tracker-cover.jpg",
+    "technologies": ["TypeScript", "Next.js", "Tailwindcss"],
+    "linkLive": "https://fm-ip-address-tracker-rho.vercel.app/",
+    "linkCode": "https://github.com/otr-web-study/fm-ip-address-tracker"
+  },
+  {
     "title": "Message template editor",
     "image": "./assets/images/message-template-editor.jpg",
     "cover": "./assets/images/message-template-editor-cover.jpg",
